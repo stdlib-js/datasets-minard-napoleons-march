@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/datasets-minard-napoleons-march",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Data for Charles Joseph Minard's cartographic depiction of Napoleon's Russian campaign of 1812.",
   "license": "Apache-2.0",
   "author": {
