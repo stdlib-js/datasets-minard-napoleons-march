@@ -1,0 +1,42 @@
+{
+  "name": "@stdlib/datasets-minard-napoleons-march",
+  "version": "0.0.0",
+  "description": "Data for Charles Joseph Minard's cartographic depiction of Napoleon's Russian campaign of 1812.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/datasets-minard-napoleons-march.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "datasets",
+    "dataset",
+    "data",
+    "minard",
+    "napoleon",
+    "history",
+    "1812",
+    "war",
+    "france",
+    "french",
+    "russia",
+    "russian",
+    "march",
+    "cartography",
+    "cartographic",
+    "map",
+    "maps",
+    "dataviz",
+    "visualization",
+    "graphic"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
