@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./mod.d.ts" />
-function e(e){if(e.__esModule)return e;var r=Object.defineProperty({},"__esModule",{value:!0});return Object.keys(e).forEach((function(t){var a=Object.getOwnPropertyDescriptor(e,t);Object.defineProperty(r,t,a.get?a:{enumerable:!0,get:function(){return e[t]}})})),r}var r="/home/runner/work/datasets-minard-napoleons-march/datasets-minard-napoleons-march/lib",t=require("path").resolve;require("@stdlib/fs-read-json").sync,require("@stdlib/assert-has-own-property"),require("@stdlib/string-format"),require("./validate.js"),t(r,"..","data","army.json"),t(r,"..","data","cities.json"),t(r,"..","data","labels.json"),t(r,"..","data","rivers.geo.json"),t(r,"..","data","temperature.json");var a=e(Object.freeze({__proto__:null}));export{a as default};
-//# sourceMappingURL=mod.js.map
