@@ -2,7 +2,7 @@
 
 @license Apache-2.0
 
-Copyright (c) 2022 The Stdlib Authors.
+Copyright (c) 2023 The Stdlib Authors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -27,6 +27,7 @@ This repository has the following branches:
 -   **esm**: [ES Module][esm-url] branch for use via a `script` tag without the need for installation and bundlers.
 -   **deno**: [Deno][deno-url] branch for use in Deno.
 -   **umd**: [UMD][umd-url] branch for use in Observable, or in dual browser/Node.js environments.
+-   **cli**: [CLI][cli-url] branch for use on the command line.
 
 The following diagram illustrates the relationships among the above branches:
 
@@ -37,13 +38,15 @@ B[main] -->|productionize| C[production];
 C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
+C -->|extract| G[cli];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/datasets/minard-napoleons-march"
-click B href "https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/main"
-click C href "https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/production"
-click D href "https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/esm"
-click E href "https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/deno"
-click F href "https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/datasets/minard-napoleons-march"
+%% click B href "https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/main"
+%% click C href "https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/production"
+%% click D href "https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/esm"
+%% click E href "https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/deno"
+%% click F href "https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/umd"
+%% click G href "https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/cli"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/datasets/minard-napoleons-march
@@ -51,3 +54,4 @@ click F href "https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/
 [deno-url]: https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/deno
 [umd-url]: https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/umd
 [esm-url]: https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/esm
+[cli-url]: https://github.com/stdlib-js/datasets-minard-napoleons-march/tree/cli
