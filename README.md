@@ -57,6 +57,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import minard from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-minard-napoleons-march@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-minard-napoleons-march/tags). For example,
+
+```javascript
 import minard from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-minard-napoleons-march@v0.2.1-esm/index.mjs';
 ```
 
@@ -614,7 +619,7 @@ var data = minard( opts );
 <body>
 <script type="module">
 
-import minard from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-minard-napoleons-march@v0.2.1-esm/index.mjs';
+import minard from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-minard-napoleons-march@esm/index.mjs';
 
 var opts = {};
 
