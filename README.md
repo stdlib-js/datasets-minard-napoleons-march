@@ -57,7 +57,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import minard from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-minard-napoleons-march@esm/index.mjs';
+import minard from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-minard-napoleons-march@v0.2.1-esm/index.mjs';
 ```
 
 #### minard( \[options] )
@@ -614,7 +614,7 @@ var data = minard( opts );
 <body>
 <script type="module">
 
-import minard from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-minard-napoleons-march@esm/index.mjs';
+import minard from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-minard-napoleons-march@v0.2.1-esm/index.mjs';
 
 var opts = {};
 
