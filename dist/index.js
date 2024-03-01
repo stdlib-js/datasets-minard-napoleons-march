@@ -1,0 +1,7 @@
+"use strict";var v=function(a,r){return function(){return r||a((r={exports:{}}).exports,r),r.exports}};var f=v(function(k,l){
+var q=require('@stdlib/assert-has-own-property/dist'),w=require('@stdlib/assert-is-plain-object/dist'),_=require('@stdlib/assert-is-string/dist').isPrimitive,m=require('@stdlib/error-tools-fmtprodmsg/dist');function h(a,r){return w(r)?q(r,"data")&&(a.data=r.data,!_(a.data))?new TypeError(m('0Mp2W',"data",a.data)):null:new TypeError(m('0Mp2V',r));}l.exports=h
+});var g=v(function(S,p){
+var t=require("path").resolve,c=require('@stdlib/fs-read-json/dist').sync,b=require('@stdlib/assert-has-own-property/dist'),j=require('@stdlib/error-tools-fmtprodmsg/dist'),y=f(),u=["army","cities","labels","rivers","temperature"],d={army:t(__dirname,"..","data","army.json"),cities:t(__dirname,"..","data","cities.json"),labels:t(__dirname,"..","data","labels.json"),rivers:t(__dirname,"..","data","rivers.geo.json"),temperature:t(__dirname,"..","data","temperature.json")},O={encoding:"utf8"};function E(a){var r,s,o,e,i,n;if(arguments.length>0){if(r={},s=y(r,a),s)throw s;if(r.data){if(!b(d,r.data))throw new RangeError(j('0Mp4S',"data",u.join('", "'),r.data));if(e=c(d[r.data],O),e instanceof Error)throw e;return e}}for(e={},n=0;n<u.length;n++){if(o=u[n],i=c(d[o]),i instanceof Error)throw i;e[o]=i}return e}p.exports=E
+});var x=g();module.exports=x;
+/** @license Apache-2.0 */
+//# sourceMappingURL=index.js.map
